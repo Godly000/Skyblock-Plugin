@@ -15,10 +15,8 @@ public class WorldModifier implements Listener {
         Chunk temp = event.getChunk();
         String marker = ""+temp.getX()+"\t"+temp.getZ()+"\t"+temp.getWorld().getName();
         if(!list.contains(marker)) {
-            if(!ClearList.contains(marker)) {
-                ClearList.add(marker);
-                // Bukkit.getLogger().info("Added chunk " + marker + " to queue");
-            }
+            ClearList.add(marker);
+            // Bukkit.getLogger().info("Added chunk " + marker + " to queue");
         }
     }
 }

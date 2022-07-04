@@ -126,21 +126,11 @@ public final class Skyblock extends JavaPlugin {
             if (mat == Material.OBSIDIAN && Math.sqrt(x*x+z*z) < 500) return true; // keep obsidian if it is an end pillar or the spawn platform
         }
         else if (mat == Material.OBSIDIAN) // in the Overworld and Nether, keep obsidian if and only if it is next to a nether portal block
-        {
-            Bukkit.getLogger().info("Detected obsidian at "+x+", "+y+", "+z);
             for (int x_diff = -1; x_diff <= 1; x_diff++)
                 for (int y_diff = -1; y_diff <= 1; y_diff++)
                     for (int z_diff = -1; z_diff <= 1; z_diff++)
-                        if (Math.abs(x_diff)+Math.abs(y_diff)+Math.abs(z_diff) == 1 || Math.abs(x_diff)+Math.abs(y_diff)+Math.abs(z_diff) == 2) {
-                            Bukkit.getLogger().info("Looking at block " + (x+x_diff) + ", " + (y+y_diff) + ", " + (z+z_diff) +
-                                    "with material "+chunk.getWorld().getBlockAt(x+x_diff, y+y_diff, z+z_diff).getType());
-                            if (chunk.getWorld().getBlockAt(x+x_diff, y+y_diff, z+z_diff).getType() == Material.NETHER_PORTAL)
-                            {
-                                Bukkit.getLogger().info("Found nearby nether portal!");
-                                return true;
-                            }
-                        }
-        }
+                        if (Math.abs(x_diff)+Math.abs(y_diff)+Math.abs(z_diff) == 1 || Math.abs(x_diff)+Math.abs(y_diff)+Math.abs(z_diff) == 2)
+                            if (chunk.getWorld().getBlockAt(x+x_diff, y+y_diff, z+z_diff).getType() == Material.NETHER_PORTAL) return true;
         return false;
     }
     @Override
