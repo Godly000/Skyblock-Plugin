@@ -1,0 +1,4 @@
+name: Skyblock
+version: '${project.version}'
+main: godly.skyblock.Skyblock
+api-version: 1.19
