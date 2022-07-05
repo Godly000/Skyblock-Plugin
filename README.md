@@ -12,7 +12,7 @@ The datapack does these things:
 * The same replacement happens for Ancient City chests
 * End City chests have Chorus Flowers instead of Beetoroot Seeds
 * _Work In Progress: Mansions generate special loot instead of having nearly the same loot table as Dungeon chests_
-* Amethyst Cluster/Buds drop Amethyst with increasing chances when mined with Silk Touch (2%, 5%, 10%, 17.5%)
+* Amethyst Cluster/Buds sometimes drop an Amethyst Shard with increasing chances when mined with Silk Touch (2%, 5%, 10%, 17.5%)
 * The Ender Dragon drops its head when killed by a charged Creeper
 * Piglin Brutes rarely drop Warped Nylium (2.5% chance +1% per Looting level)
 * Wardens drop Deepslate (8-16, +8-16 per Looting level)
