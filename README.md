@@ -4,7 +4,7 @@ A Bukkit/Paper server plugin for Skyblock! Unlike most other Skyblock mods, plug
 * A few types of blocks are kept: Chests, Trapped Chests, Spawners, End Portal Frames, End Portal Blocks, End Gateways, Obsidian within the Main End Island, and Bedrock in the End
 * A helper datapack is used for obtaining the rest of the items, entities, and advancements, as well as for creating the spawn platform
 ## Helper Datapack (Still in Pre-Release!)
-The helper datapack can be found [here](https://github.com/Godly000/Skyblock-Helper-Datapack) (still a pre-release!)
+The helper datapack can be found [here](https://github.com/Godly000/Skyblock-Helper-Datapack) (still a pre-release!)  
 The datapack does these things:
 * Immediately spawns players in the Nether above a Chest containing 64 Bone Blocks and a Crimson Nylium at 0, 0, 0
 * Converts all Sculk Shriekers near players that cannot summon Wardens and give the Darkness effect to ones that can
