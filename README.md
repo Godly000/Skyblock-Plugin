@@ -6,7 +6,7 @@ A Bukkit/Paper server plugin for Skyblock! Unlike most other Skyblock mods, plug
 ## Helper Datapack
 The helper datapack can be found [here](https://github.com/Godly000/Skyblock-Helper-Datapack)  
 The datapack does these things:
-* Immediately spawns players in the Nether above a Chest containing 64 Bone Blocks and a Crimson Nylium at 0, 0, 0
+* Immediately spawns new players in the Nether above a Chest containing 64 Bone Blocks and a Crimson Nylium at 0, 0, 0
 * Converts all Sculk Shriekers near players that cannot summon Wardens and give the Darkness effect to ones that can
 * If players are able to catch one of a Mineshaft's Chest Minecart before it falls into the void, it contains Glow Berries, Glow Lichen, and Spore Blossoms at equal chances in place of just Glow Berries
 * The same replacement happens for Ancient City chests
