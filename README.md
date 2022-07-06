@@ -11,7 +11,7 @@ The datapack does these things:
 * If players are able to catch one of a Mineshaft's Chest Minecart before it falls into the void, it contains Glow Berries, Glow Lichen, and Spore Blossoms at equal chances in place of just Glow Berries
 * The same replacement happens for Ancient City chests
 * End City chests have Chorus Flowers instead of Beetoroot Seeds
-* _Work In Progress: Mansions generate special loot instead of having nearly the same loot table as Dungeon chests_
+* Mansions generate better and more unique loot, the loot table can be found [here](https://docs.google.com/document/d/1ylOSPJPF5M3kB75_szMUdr0DMjuSlSpNUXzX_970u8M/edit)
 * Amethyst Cluster/Buds sometimes drop an Amethyst Shard with increasing chances when mined with Silk Touch (2%, 5%, 10%, 17.5%)
 * The Ender Dragon drops its head when killed by a charged Creeper
 * Piglin Brutes rarely drop Warped Nylium (2.5% chance +1% per Looting level)
@@ -22,7 +22,7 @@ The datapack does these things:
 * Weaponsmiths gift Stone/Gold/Iron (5:3:1 ratio) Swords/Axes (2:1 ratio)
 * Cats gift Lilacs, Peonies, Rose Bushes, and Sunflowers with equal chance instead of what they used to gift
 * Crafting recipes for: All ores, Amethyst Cluster/Buds, Calcite, Cobweb, Netherrack, Tuff
-* _Work In Progress: Recipe Unlock Advancements for the added Crafting recipes_
+* Recipe Unlock Advancements for the added Crafting recipes
 * Bastion Remnants have completely changed spawning rules (inside its largest bounding box: 80% of the time Piglins with 3-4 per pack, 15% Hoglins with 2-3 per pack, 5% Piglin Brutes with 1 per pack)
 * Inside Ocean Monuments, Elder Guardians spawn in place of Guardians 0.1% of the time
 ## For server managers: How to Install and Manage the Skyblock server
