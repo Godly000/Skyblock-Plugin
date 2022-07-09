@@ -8,6 +8,7 @@ The helper datapack can be found [here](https://github.com/Godly000/Skyblock-Hel
 The datapack does these things:
 * Immediately spawns new players in the Nether above a Chest containing 64 Bone Blocks and a Crimson Nylium at 0, 0, 0
 * Converts all Sculk Shriekers near players that cannot summon Wardens and give the Darkness effect to ones that can
+* Converts all Vexes with the Strength effect into Allays
 * If players are able to catch one of a Mineshaft's Chest Minecart before it falls into the void, it contains Glow Berries, Glow Lichen, and Spore Blossoms at equal chances in place of just Glow Berries
 * The same replacement happens for Ancient City chests
 * End City chests have Chorus Flowers instead of Beetoroot Seeds
@@ -35,11 +36,12 @@ The datapack does these things:
 6. Optional: Op the owner (type "op <Owner's IGN>" into the world seed), and load the spawn chunks for the Overworld and a 16 chunk radius for the Nether and End
 7. Optional: Find a good render distance (view-distance) for the server so that it does not overload the server to the point of crashing (overloading the server at all is unavoidable with this plugin) and set the render distance for the server as such when testing is finished
 8. MUST DO: Stop the server (type "stop" into the console) every time the server needs to stop instead of closing the console. Otherwise, people will lose their builds/items!
-9. Optional: If you wish to re-generate chunks, you have to both use [MCA Selector](https://github.com/Querz/mcaselector/releases) and delete the corresponding chunk entry in loaded.txt inside the highest server files folder. Never add chunks to the text file, only delete lines from it _carefully_ (or there will be regrets)!
+9. Optional: Go into your server folder, into config/paper-global.yml, and set the parameter allow-piston-duplication to true.
+10. Optional: If you wish to re-generate chunks, you have to both use [MCA Selector](https://github.com/Querz/mcaselector/releases) and delete the corresponding chunk entry in loaded.txt inside the highest server files folder. Never add chunks to the text file, only delete lines from it _carefully_ (or there will be regrets)!
 ## Recommendations for Enhanced Gameplay
+* A [plugin](https://dev.bukkit.org/projects/gravity-control) that re-enables falling block duplication
 * [Chunkbase](chunkbase.com/apps/seed-map) if the world seed is known
 * [Fabric Carpet](https://github.com/gnembon/fabric-carpet/releases) for knowing what mobs will spawn on each block (give a pink carpet first), and for many other helpful resources
 * [MiniHUD](https://github.com/maruohon/minihud) for bounding boxes of structures (not out yet for 1.19)
-
 ## Progression
 Stuck? Don't know how to get that one crucial thing? The entire progression list (how to get each item and entity) can be found [here](https://docs.google.com/spreadsheets/d/1S3jBzfy_PtJhQI_5jFIN3lXBiUEMebt_rT2x5os2MYw/edit#gid=973217780): (The Skyblock Items and Skyblock Entities sheets)
